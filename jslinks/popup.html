@@ -1,0 +1,18 @@
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="popup.js"></script>
+  <link href="pure-min.css" rel="stylesheet" type="text/css">
+</head>
+<body style="width: 450px;height:100px">
+     <div style="margin:10px;font-weight:bold;"> >> Please input category id or goods id:</div>
+     <div style="margin:5px;">
+        <input autocomplete="off" type="text" style="height:26px;width:250px;margin-right:20px;"  class="pure-input" id="search" placeholder="Search" />
+        <button style=" color: white; border-radius: 4px; background: rgb(66, 184, 221); text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);" type="submit" id="search-btn" class="pure-button">Search</button>
+     </div>
+     <div style="margin:10px;font-weight:bold;"> >> fetch links(Links auto copy to clipboard):</div>
+     <textarea id="content" style="margin:10px;border:none;" rows="3" cols="60" 
+         class="pure-input" placeholder="eg.c2,c3, g918, g50783"></textarea>
+     <div id="extra-content" style="margin:10px;"></div>
+</body>
+</html>
