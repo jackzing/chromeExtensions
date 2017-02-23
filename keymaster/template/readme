@@ -1,0 +1,8 @@
+### add new func
+1.模板文件放到template目录
+2.js文件放到js目录
+3.模板文件中不要包含js的code，只导入js文件
+这个与chrome CSP策略有关
+
+## menu jquery plugin
+Plugin documentation and examples : http://danartinho.github.io/WCircleMenu/ 
