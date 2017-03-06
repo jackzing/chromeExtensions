@@ -4,13 +4,35 @@
   "description": "A browser action with a popup dump of all bookmarks, including search, add, edit and delete.",
   "permissions": [
     "bookmarks",
-    "https://www.jjshouse.com/*"
+    "https://www.jjshouse.com/*",
+    "https://www.jjshouse.co.uk/*",
+    "https://www.jjshouse.fr/*",
+    "https://www.jjshouse.com.au/*",
+    "https://www.jjshouse.no/*",
+    "https://www.jjshouse.fi/*",
+    "https://www.jjshouse.ch/*",
+    "http://www.jjshouse.fi/*",
+    "https://www.jjshouse.se/*",
+    "https://www.jjshouse.dk/*",
+    "https://www.jjshouse.de/*",
+    "https://ar.jjshouse.com/*",
+    "storage"
   ],
   "browser_action": {
       "default_title": "jslinks",
       "default_icon": "icon.png",
       "default_popup": "popup.html"
   },
+  "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "windows": "Ctrl+J",
+          "mac": "Command+J",
+          "chromeos": "Ctrl+J",
+          "linux": "Ctrl+J"
+        }
+      }
+   },
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }
