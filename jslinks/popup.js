@@ -59,7 +59,7 @@ $(function() {
   }
 
   var searchConfig = {
-    "url": "https://www.jjshouse.com/",
+    "url": "https://www.jjshouse.com",
     "items":["g918", "c7", "g20", "g956", "c22"]
   };
 
@@ -104,12 +104,12 @@ $(function() {
         "isCatId": false
        };
        if (id.match(catPattern)) {
-          url = origin + "-c";
+          url = origin + "/-c";
           url = url + id.substr(1);
           cls = ".breadcrumb .curr-category a";
           params.isCatId = true;
        } else if (id.match(goodsPattern)) {
-          url = origin + "search.php?q="
+          url = origin + "/search.php?q="
           url = url + id.substr(1);
           cls = ".cat-prod-list .catpl-prod .pic a";
           params.isGoodsId = true;
