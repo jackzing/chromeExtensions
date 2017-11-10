@@ -11,6 +11,6 @@ jwerty.key('e,e', function() {
     if ($("#ee2018circlemenu").length == 1) {
         $("#ee2018circlemenu").toggle();
     } else {
-        $("body").append('<iframe id="ee2018circlemenu"style="width: 400px; height: 300px; position: fixed; top: 10%; border: 0px;"src="' + url + '"></iframe>');
+        $("body").append('<iframe id="ee2018circlemenu"style="width: 400px; height: 300px; position: fixed; top: 10%; border: 0px;z-index: 999;"src="' + url + '"></iframe>');
     }
 });
