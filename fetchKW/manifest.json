@@ -1,0 +1,28 @@
+{
+  "name": "fetch keyword for link building",
+  "version": "1.1",
+  "description": "fetch keyword for perparing keyword",
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "activeTab",
+    "http://www.seoreviewtools.com/link-building-tool/"
+  ],
+  "browser_action": {
+      "default_title": "keyword",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "windows": "Ctrl+Y",
+          "mac": "Command+Y",
+          "chromeos": "Ctrl+Y",
+          "linux": "Ctrl+Y"
+        }
+      }
+   },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
